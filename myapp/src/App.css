@@ -1,0 +1,19 @@
+.app{
+  width: 100%;
+  margin-top:-10px;
+  height: 100vh;
+  background-color:rgb(236, 241, 244);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width: 903px){
+   
+  .app{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
